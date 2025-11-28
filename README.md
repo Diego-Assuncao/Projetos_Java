@@ -1,7 +1,28 @@
-🥋 Desafio 03: Herança na Programação Orientada a Objetos (POO)Este projeto é um exercício prático focado na implementação do conceito de Herança em Java, um dos pilares da Programação Orientada a Objetos (POO). Ele demonstra como atributos e métodos podem ser compartilhados e estendidos entre classes para promover a reutilização e organização do código.🌟 Conceitos AbordadosO projeto utiliza o tema de ninjas e clãs para ilustrar os seguintes conceitos de POO:Herança: A classe Uchiha herda todos os atributos e o método mostrarInformacoes() da classe base (superclasse) Ninja.Superclasse (Ninja): Define os atributos e comportamentos genéricos (nome, idade, missão, etc.) que são comuns a todos os ninjas.Subclasse (Uchiha): Estende a superclasse, adicionando um atributo específico (habilidadeEspecial) e um método próprio (mostrarHabilidadeEspecial).Sobrescrita de Método (@Override): O método mostrarInformacoes() é sobrescrito na classe Uchiha para incluir a informação da habilidade especial, aproveitando o código da superclasse via super.mostrarInformacoes().⚙️ Estrutura do CódigoO projeto é composto por três classes principais dentro do pacote Projetos.Desafio03:ClasseDescriçãoNinjaSuperclasse. Define as características comuns a todos os ninjas (atributos e método mostrarInformacoes()).UchihaSubclasse. Herda de Ninja e adiciona o atributo habilidadeEspecial. Sobrescreve mostrarInformacoes() para incluir a habilidade.MainClasse de Execução. Cria uma instância de Uchiha (Sasuke), define seus atributos e chama o método mostrarInformacoes().💻 Como ExecutarPara rodar este projeto, basta compilar e executar a classe Main.java.Saída Esperada:Ao executar a classe Main, a seguinte saída será exibida no console:Nome do Ninja: Sasuke Uchiha
+🥋 Desafio 03: Herança na Programação Orientada a Objetos (POO)
+Este projeto é um exercício prático focado na implementação do conceito de Herança em Java, um dos pilares da Programação Orientada a Objetos (POO). Ele demonstra como atributos e métodos podem ser compartilhados e estendidos entre classes para promover a reutilização e organização do código.
+
+🌟 Conceitos Abordados
+O projeto utiliza o tema de ninjas e clãs para ilustrar os seguintes conceitos de POO:
+Herança: A classe Uchiha herda todos os atributos e o método mostrarInformacoes() da classe base (superclasse) Ninja.
+Superclasse (Ninja): Define os atributos e comportamentos genéricos (nome, idade, missão, etc.) que são comuns a todos os ninjas.
+Subclasse (Uchiha): Estende a superclasse, adicionando um atributo específico (habilidadeEspecial) e um método próprio (mostrarHabilidadeEspecial).
+Sobrescrita de Método (@Override): O método mostrarInformacoes() é sobrescrito na classe Uchiha para incluir a informação da habilidade especial, aproveitando o código da superclasse via super.mostrarInformacoes().
+
+⚙️ Estrutura do Código
+O projeto é composto por três classes principais dentro do pacote Projetos.Desafio03:
+Ninja: Superclasse. Define as características comuns a todos os ninjas (atributos e método mostrarInformacoes()).
+Uchiha: Subclasse. Herda de Ninja e adiciona o atributo habilidadeEspecial. Sobrescreve mostrarInformacoes() para incluir a habilidade.
+Main: Classe de Execução. Cria uma instância de Uchiha (Sasuke), define seus atributos e chama o método mostrarInformacoes().
+
+💻 Como Executar
+Para rodar este projeto, basta compilar e executar a classe Main.java.
+Saída Esperada:
+Ao executar a classe Main, a seguinte saída será exibida no console:
+Nome do Ninja: Sasuke Uchiha
 Idade: 18
 Missão: Defender a aldeia da folha de 5 ninjas invasores
 Nível da Missão: Nível Médio
 Status da Missão: 70% Concluída
 Meu nome é Sasuke Uchiha e a minha habilidade Sharingan foi ativada
+
 🛠️ TecnologiasLinguagem: JavaParadigma: Programação Orientada a Objetos (POO)
